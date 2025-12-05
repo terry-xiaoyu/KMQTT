@@ -1,5 +1,7 @@
 # KMQTT
 
+[![](https://jitpack.io/v/terry-xiaoyu/KMQTT.svg)](https://jitpack.io/#terry-xiaoyu/KMQTT)
+
 **KMQTT** is a Kotlin Multiplatform MQTT 3.1.1/5.0 Client and Broker, with the objective of targeting the most possible build targets.
 
 
