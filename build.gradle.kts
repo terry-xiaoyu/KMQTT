@@ -17,6 +17,6 @@ plugins {
 }
 
 subprojects {
-    group = "io.github.davidepianca98"
-    version = "1.0.0"
+    group = "io.github.terry-xiaoyu"
+    version = "1.0.0.1"
 }

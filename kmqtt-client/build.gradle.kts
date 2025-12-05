@@ -134,7 +134,7 @@ publishing {
     repositories {
         maven {
             name = "github"
-            url = uri("https://maven.pkg.github.com/davidepianca98/KMQTT")
+            url = uri("https://maven.pkg.github.com/terry-xiaoyu/KMQTT")
             credentials(PasswordCredentials::class)
         }
     }

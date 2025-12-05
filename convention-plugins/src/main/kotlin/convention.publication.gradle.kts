@@ -62,7 +62,7 @@ publishing {
         pom {
             name.set("KMQTT")
             description.set("Kotlin Multiplatform MQTT client & embeddable and standalone broker")
-            url.set("https://github.com/davidepianca98/KMQTT")
+            url.set("https://github.com/terry-xiaoyu/KMQTT")
 
             licenses {
                 license {
@@ -72,13 +72,13 @@ publishing {
             }
             developers {
                 developer {
-                    id.set("davidepianca98")
-                    name.set("Davide Pianca")
-                    email.set("davidepianca98@gmail.com")
+                    id.set("terry-xiaoyu")
+                    name.set("Shawn")
+                    email.set("506895667@qq.com")
                 }
             }
             scm {
-                url.set("https://github.com/davidepianca98/KMQTT")
+                url.set("https://github.com/terry-xiaoyu/KMQTT")
             }
         }
     }
