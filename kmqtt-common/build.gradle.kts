@@ -1,5 +1,6 @@
 
 plugins {
+    id("com.vanniktech.maven.publish")
     alias(libs.plugins.kotlin.multiplatform)
     id("convention.publication")
 }
@@ -168,14 +169,4 @@ kotlin {
 tasks.withType<AbstractPublishToMaven>().configureEach {
     val signingTasks = tasks.withType<Sign>()
     mustRunAfter(signingTasks)
-}
-
-publishing {
-    repositories {
-        maven {
-            name = "github"
-            url = uri("https://maven.pkg.github.com/terry-xiaoyu/KMQTT")
-            credentials(PasswordCredentials::class)
-        }
-    }
 }

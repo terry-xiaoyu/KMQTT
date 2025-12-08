@@ -12,6 +12,7 @@ buildscript {
 }
 
 plugins {
+    id("com.vanniktech.maven.publish") version "0.35.0" apply false
     alias(libs.plugins.kotlin.multiplatform) apply false
     alias(libs.plugins.goncalossilva.resources)
 }
