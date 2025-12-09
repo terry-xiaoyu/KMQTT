@@ -6,7 +6,7 @@ mavenPublishing {
   publishToMavenCentral(automaticRelease = true)
   signAllPublications()
 
-  coordinates("io.github.terry-xiaoyu", project.name, "1.0.0.2")
+  coordinates("io.github.terry-xiaoyu", project.name, "1.0.0.3")
 
   pom {
     name.set("KMQTT")
