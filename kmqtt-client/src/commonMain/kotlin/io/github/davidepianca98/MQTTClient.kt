@@ -96,13 +96,13 @@ import kotlinx.coroutines.yield
  * @param publishReceived called when a PUBLISH packet has been received
  */
 public class MQTTClient(
-    private val mqttVersion: MQTTVersion,
+    public val mqttVersion: MQTTVersion,
     private val address: String,
     private val port: Int,
     private val tls: TLSClientSettings?,
     keepAlive: Int = 60,
     private val webSocket: String? = null,
-    private val cleanStart: Boolean = true,
+    public val cleanStart: Boolean = true,
     public var clientId: String? = null,
     public var userName: String? = null,
     private val password: UByteArray? = null,
