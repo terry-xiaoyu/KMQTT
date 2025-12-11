@@ -19,5 +19,5 @@ plugins {
 
 subprojects {
     group = "io.github.terry-xiaoyu"
-    version = "1.0.0.3"
+    version = "1.0.0.4"
 }
